@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A hidden journalism</title>
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href= "https://fonts.googleapis.com/css?family=Merriweather:400,900" rel="stylesheet" type="text/css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
+
+  <script>$(document).ready(function() {
+      $('#example').DataTable().on('mouseover');
+  } );
+  </script>
+
+<style>
+.header {
+  font-size: 60px;
+  font-family: 'Merriweather', serif;
+  color: black;
+  font-style: bold;
+  margin-bottom: 10px;
+}
+
+.byline p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 12px;
+  margin-left: 12px;
+  font-family: 'Merriweather', serif;
+  font-style: bold;
+}
+
+.byline a {
+  text-decoration: underline;
+}
+
+h1, h2, #top-image {
+  margin: 12px;
+  margin-left: none;
+  padding: 12px;
+}
+
+.story {
+  color: black;
+  font-family: Cambria;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 27px;
+  font-style: bold;
+}
+
+h4 {
+  font-size: 27px;
+  font-style: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid black;
+}
+
+.map {
+  padding-top: 20px;
+}
+
+.caption {
+font-size: 12px;
+font-family: Arial;
+color: gray;
+margin-top: 10px;
+}
+
+#backpack, #plaza {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bio {
+  font-style: italic;
+  padding-top: 10px;
+  margin-top: 30px;
+  border-top: 1px solid black;
+  color: black;
+  font-family: Cambria;
+  font-size: 16px;
+}
+
+#reading {
+  max-width: 400px;
+  float: right;
+  padding: 20px;
+}
+
+#prince-sign {
+  max-width: 400px;
+  float: left;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.page-one {
+  padding: 20px;
+}
+
+.poem {
+  text-align: center;
+  font-style: italic;
+  margin: 0px;
+}
+
+.poem-last {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+.poem-first {
+  text-align: center;
+  font-style: italic;
+  margin: 0px;
+  padding-top: 15px;
+}
+
+.table-title, .map-head {
+  margin-top: 15px;
+  padding-top: 20px;
+  font-family: 'Merriweather', serif;
+
+}
+
+.table {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+
+<h1 class="header">A hidden journalism</h1>
+  <h2> Dallas' Street Zine generates income, employment for local homeless</h2>
+    <div class="byline">
+          <p>By <a href= "https://twitter.com/joriepstein" target="_blank">Jori Epstein</a></p>
+          <p>Staff Writer</p>
+          <p>Published May 10 2016</p>
+        </div><!-- col-1-->
+      </div><!-- byline-->
+
+<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+  <div id="top-image">
+<img src="http://i.imgur.com/x5QRR5T.jpg" class="img-responsive">
+  <p class="caption">Tony Jameson, 53, owned a wrecking yard for 20 years. After 14 months on the streets and a bout of health problems, he now sells Street Zine to stay afloat.</p>
+</div><!-- top-image-->
+</div><!-- col 2-->
+
+<div class="story">
+<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+<h3>Meet Tony Jameson</h3>
+<p>Tony Jameson has received a $100 bill, turkeys and snowshoes. He has encountered an angry woman with dogs, tenants who ignored him for three years and local police who claim his paper sales violate panhandling ordinances. They tried to evict the 53-year-old Street Zine vendor, but Jameson knew better. He earned the right to his sales spot like he earned the roof over his head. From there, his customers help him out.</p>
+<p>Take the $2,000 worth of dental care, for example.</p>
+<p>One morning, Jameson trekked down to a dentist’s office at 5 a.m. The dentist diagnosed unwelcome news: Jameson’s wisdom tooth was pushing sideways into an adjacent incisor. The overlap created a cavity. And it wouldn’t fix itself.</p>
+<p>“You should go pull seven teeth at Parkland Hospital and come back and see us,” Jameson remembers the dentist saying.</p>
+<p>“No, I don’t think so,” Jameson responded.</p>
+<p>Unsure what to do next, Jameson went to sell Street Zine at his post outside Energy Plaza at 1601 Bryan Street. He alternated between selling the paper and pouring BC powder in his mouth to numb the tooth pain. One customer walked by as he poured the powder, wincing.</p>
+<p>“What’s wrong with you?” she asked.</p>
+<p>“Toothache, bad,” Jameson made out through numb lips. “Toothache, bad.”</p>
+<p>The customer didn’t hesitate.</p>
+<p>“Go over there to the Republic National Bank and go up to the 11th floor,” she said. “Go see my dentist. I’ll take care of the bill.”</p>
+<p>Jameson made his way to the customer’s dentist, where he got two – not seven – teeth pulled. Enough to “avert crisis,” he says. The customer paid the $2,000 bill.</p>
+<p>Jameson says about 300 employees at Energy Plaza know his name. Regular readers stroll past, an older man slips Jameson $2 because he “already has a copy” of the paper, and a purple-clad businesswoman flashes a bright smile and wishes Jameson a good weekend. Another woman gives him $5 every Friday but once gave him $50. Jameson stopped her to let her know she made a mistake. She hadn’t.</p>
+<p>“It was a very good day today,” she told him.</p>
+<p>Jameson appreciates the generosity.</p>
+<p>“Those people are really nice people,” Jameson said. “They really will look out for you if you try to be a decent person. I mean that’s my whole objective.”</p>
+
+<h3>How did he get here?</h3>
+<p>As he tries to be a decent person, Jameson also tries to be a more-than-decent vendor. He brings his customers candy on Valentine’s Day to show he cares. And he never gives a hard sell.</p>
+<p>Jameson has his routine down: Mondays and Wednesdays from 3:30 to 5:30 p.m. Fridays begin at 1:30 since customers leave work earlier. Jameson usually carries 35 to 40 copies of Dallas’ street newspaper each shift. He makes on average $3-4 per paper, $150-$200 a week. The money goes toward rent-controlled housing, food and medicines.</p>
+
+<div id="plaza">
+<img src="http://i.imgur.com/ZzBpAVo.jpg" class="img-responsive">
+<p class="caption">Jameson vends across the street from Energy Plaza in downtown Dallas. He says about 300 workers from the building know his name.</p>
+</div><!-- plaza-->
+
+<p>The life is certainly different from that which Jameson lived for 20 years when he owned a wrecking yard until the city “really jacked me up” in 2008, he says. When city ordinances banned wrecking yards, Jameson lost his business and by default his source of income. The city didn’t care that he had a certificate of occupancy. He lived on his land for five years “before my family jacked me out of” that, too, he says. Then he became homeless. Jameson spent 14 months at The Bridge, one of downtown Dallas’ homeless recovery centers.</p>
+<p> “It was eye-opening from the point of 80 percent of the people want to sit there and not advance themselves, their cause, their position in life,” Jameson said. “That’s what led me to say, ‘I don’t want to sit here all day. I need to go do something.’”</p>
+<p>Jameson didn’t need to be wealthy again. He says he used to be a materialist, owning 10 antique cars and a sprawling plot of land. He had every Mercedes Benz 300 series except the convertible. He drove his girlfriend in a Lexus SC 400. Now?</p>
+<p>“I’m not a greedy person,” he said.</p>
+<p>Jameson is content with a 1988 Buick, his $45/month high-rise apartment at Forest and Greenville, and a stocked fridge.</p>
+<p>“All of these are good things I didn’t have before,” Jameson said.</p>
+<p>Many vendors still don’t. More than 75 percent of Street Zine vendors are homeless, according to caseworkers at The Stewpot, the homeless service provider that houses the paper’s office.</p>
+<p>Jameson sticks to selling the paper because his failing health precludes traditional employment. Since September 2014, diabetes, blood clots and an intestinal infection have limited his “good days.” Jameson isn’t homeless like many vendors, but his health concerns resemble theirs.</p>
+<p>“There are different kinds of homeless people,” Jameson said. “Some of them have medical issues. I didn’t, but I do now. Some of them have economic issues, some of them have dependence issues, some of them have just society issues. I used to think I didn’t fit in with other people. But now that I have health issues, like I said, this goes a long way in helping out.”</p>
+<p>Jameson’s one of roughly 35 active Street Zine salespeople for whom the paper goes “a long way in helping out.” The money helps, they say. So does the chance to interact with local residents.</p>
+<p>“It gives them an opportunity to be out in the world,” said Robert Thompson, who supervised Street Zine as a Stewpot caseworker until he retired April 1. “Being homeless and sitting on a corner asking for a quarter – there’s mental benefit, pride in fact, that they’re working as opposed to panhandling.”</p>
+
+<h3>A history of Dallas street papers</h3>
+
+<p>Street Zine is not Dallas’ inaugural homeless publication. First, The Stewpot partnered with The Dallas Morning News, Dallas Times Herald and Texas Women’s University to produce a quarterly paper and offer the homeless journalism mentorship. Next, a local businesswoman debuted bimonthly publication Endless Choices for the homeless to sell. The paper increased its circulation from 1,500 to 7,000. More than 1,000 vendors participated.</p>
+<p>In 2006, Street Zine launched. Caseworkers supervise paper operations, while contract editor Pat Spradley manages layout and content. Abigail Heaton, Stewpot’s manager of caseworker services, said the paper offers clients a low-barrier employment opportunity.</p>
+<p>	 “For those that stick with it and it’s a good fit personality-wise, it definitely increases self-esteem,” Heaton said. “They’re able to take care of some of their needs actually having some income that you’ve really earned.”</p>
+<p>	Jameson agreed. He limps from a customer to a stack of 20 papers propping up a cardboard sign reading “R.I.P. Prince You Will be Missed!” A Bible keeps the papers from flying away. It doubles as reading material between customer visits –the 13th time Jameson has made his way through the scripture. Most of the time, his bronze cane anchors the steps he takes in tanned suede shoes a customer once bought him. Jameson will buy the next pair, he says, now that finances are steadier. He doesn’t want sympathy for the limp, backaches or asthma added in April to his list of ailments. Those are problems. He focuses on solutions.</p>
+<p>	“I’d trade all this for health but every time you’re presented with a problem, you have to find a solution,” Jameson said. “Right now, this is my solution.”</p>
+
+<div id="reading">
+<img src="http://i.imgur.com/IMetKhs.jpg" class="img-responsive">
+<p class="caption">Jameson reads the bible between Street Zine sales.</p>
+</div><!-- reading-->
+
+<p>Over 13 years, Street Zine has six pages every three months to eight black-and-white pages per month to now a 20-page color monthly magazine format publication. Its content has changed less. Endless Choices, Spradley says, “made waves” writing controversial pieces. Then, The Stewpot had to negotiate with patrol officers to excuse vendors from the legal restrictions that panhandlers face. Further unrest unfolded when Street Zine tried to take on local shelter politics and received backlash from city officials. Stewpot staffers worried for their jobs at the time, Spradley said. So they made a concerted editorial decision: Cut the controversy, keep the source of cash for vendors.</p>
+<p> “We have not always been outspoken,” Buchanan said. “We hit a couple of brick walls when we did do that, and what we did was determine that our mission was to create an economic opportunity for our clients and do it responsibly.”</p>
+<p>Buchanan remembers one client, who he describes as “on the periphery,” writing pieces staffers didn’t deem responsible. Street Zine stopped publishing the material.</p>
+<p>	“It would come at a cost we’re not willing to pay right now,” Buchanan said, “alienating supporters of what we’re doing.”</p>
+<p>Many wish the paper pulled less from the international street news wire service and produced more local content. The censorship stunts Street Zine’s advocacy potential. There are 3,904 homeless Dallasites according to a Metro Dallas Homeless Alliance count this year – a 24 percent rise from the 3,141 counted in 2015. If Street Zine supports some of those and the Stewpot serves even more – an article from Stewpot caseworkers and clients could include voices that mainstream media doesn’t. But politics preclude that.</p>
+<p>Tasha Tsiaperas, the Dallas Morning News reporter covering Tent City, said the more the homeless join the conversation, the better policy can cater to them.</p>
+<p>“Having their say would give them a sense of autonomy like they actually have a role in their lives and our city because they’re just as much a resident of Dallas as I am,” Tsiaperas said. “Unfortunately, that’s something that’s missing in terms of the conversation of anything related to homelessness and poverty – the people are directly affected by it.”</p>
+<p>For now, Street Zine doesn’t fill that role – it merely focuses on “creat[ing] direct economic opportunity,” per its mission statement. The neutrality has financial incentive allowing the  paper to stay under The Stewpot’s financial umbrella. Street Zine claims roughly $60,000 of The Stewpot’s annual $1.9 million budget –$5,000 per month to cover labor, layout and printing costs. Vendors’ 25-cent price per issue brings some income. A portion of funding supports vendor hats and T-shirts.</p>
+<p>“Kind of a uniform,” Buchanan said, “a sense of pride within the organization.”</p>
+
+<div class="page-one">
+<img src="http://i.imgur.com/x34EEJa.png" class="img-responsive">
+<p class="caption">Street Zine has supported local homeless vendors for 16 years. In February, Street Zine and the International Network of Street Papers celebrated the 27,000 vendors who sell street papers worldwide.</p>
+</div><!-- page-one-->
+
+<h3>Street Zine operational model</h3>
+
+
+<p>Street Zine’s vendor base is always in flux but generally supports 25 to 40 people. Wednesday vendor orientations attract one to six people per week. Most don’t last, Thompson said. Building a customer base isn’t easy.</p>
+<p>Vendors sell a combined roughly 4,500 copies each month. But few write for the paper, a trend common in many other cities. Buchanan says the Stewpot is open to vendor voices but it “just hasn’t caught on.” Spradley says she thinks vendors feel “inferior” and “don’t want to do it.” The caseworkers want more vendor-produced content but don’t push the matter.</p>
+<p>“We’re not the editors of the paper,” Thompson said. “And she hasn’t really been focusing on that as far as I know.”</p>
+<p>For vendors already out of their comfort zones selling the paper, initiating a writing relationship that isn’t already there doesn’t come naturally. Vendors respond well to the Stewpot’s annual writing contest that boasts a cash prize. But they leave their creativity at the contest doors. From time to time, additional interest piques. </p>
+<p>“I fancy myself to try to be a writer at some point,” Jameson said.</p>
+<p>He once sketched out plans for the book about his life he wants to write. The title?</p>
+<p>“‘Things That Are Not,’” Jameson says, “because there are a lot of things in this world that they tell you that are really not.”</p>
+
+
+<h3>The job search: something that is not</h3>
+<p>Before cementing his Street Zine commitment, Jameson applied to roughly 30 jobs and received eight to 10 interviews he said. He was offered just one: a manual labor position at The Dallas Morning News’ production plant in Plano. But the $8 an hour salary wouldn’t have covered his commuting and rent increases. He continued to look or jobs but became discouraged.</p>
+<p>“I’ll admit it,” he said. “There are some jobs I just would not apply for. I’m not going to be a fry cook at McDonald’s. It’s not going to happen. First of all they probably wouldn’t hire me because they’d want to know, ‘Why are you doing an entry-level position when you’re 50 years old?’</p>
+<p>‘Well can you make me the CEO of the company then? No, well, OK, then I guess I have to get an entry-level position.’”</p>
+
+<h3>A Dallas street perspective</h3>
+<p>	 A Street Zine poem echoes Jameson’s job search. Curtis Wilkerson writes:</p>
+
+<p class="poem-first">Have you ever thought just a wee little bit;</p>
+<p class="poem">How it would seem to be a misfit</p>
+<p class="poem">And how you’d feel if you had to sit,</p>
+<p class="poem-last">On the other side of the desk?</p>
+
+<p class="poem">Have you ever looked at the man who seemed a bum;</p>
+<p class="poem">As he sat before you, nervous and dumb,</p>
+<p class="poem">And thought of the courage it took to come,</p>
+<p class="poem-last">To the other side of the desk.</p>
+
+<p class="poem">Have you thought of his dreams that went astray,</p>
+<p class="poem">Of the hard real facts of his every day,</p>
+<p class="poem">Of the things in his life that make him stray,</p>
+<p class="poem-last">On the other side of the desk.</p>
+
+<p>The other side of the desk? Another thing that is not.</p>
+
+<div id="prince-sign">
+<img src="http://i.imgur.com/ivwIhno.jpg" class="img-responsive">
+<p class="caption">On Friday, April 22, Jameson paid tribute to Prince while selling the paper. His badges hung from the pole, proof of his right to sell the paper.</p>
+</div><!-- prince-sign-->
+<h3>Street Zine discipline</h3>
+<p>These days, Jameson’s desk is a broad oblong table in a Stewpot conference room. He sells vendors their papers on Monday and initiates new vendors each Wednesday. He explains the rules. There are legal guidelines, such as no vending between sundown and sunup, and the admonition to remain at least 25 feet away from banks, pay phones, DART stops, ATM machines and gas stations. There are also behavioral guidelines: Abusive language or threatening behavior may prompt suspension and/or termination. No selling other merchandise while vending Street Zine and no fighting over turf.</p>
+<p>Below eight listed items, a boldfaced suspension warning and an even larger “I have read and fully understand…” statement, vendors sign the agreement and their contract begins.</p>
+<p>Then, the process is fairly simple: Pose for a photo ID, don a Street Zine uniform, pick up 10 free papers to start and receive a badge that matches the current paper’s color scheme. Switching colors each month, Street Zine monitors that only active vendors sell papers. Pair the color-coded badges with the valid IDs, and the system assuages most police concerns. The downtown safety patrol still monitors any mishaps. Every couple months, Stewpot staffers suspend vendors. The most severe misbehaviors – alcohol, drug usage and harassment – may prompt termination.</p>
+<p>“What you do on your time’s your business,” Jameson said. “What do you when you’re selling the paper is our business.”</p>
+
+
+<h3>Jameson’s sales experience</h3>
+
+<p>Jameson monitors his behavior on the job carefully. He spends eight hours a week at the Energy Plaza crosswalk.</p>
+<p>On Friday afternoon, April 22, Jameson wishes walkers a good afternoon, evening or weekend. Responses vary. Of 35 passersby, 34 greet him with a curt nod, a wave or a “Hiya Tony.” One stays to chat.</p>
+<p>“How are you doing today, my friend?” asks one man en route to his car. He looks about 30, with silver framed glasses sitting and a thick auburn beard. His short-sleeve plaid button down and jeans make it clear today is Friday at work. A navy and khaki backpack hangs from his shoulders. Unlike many walkers who greet Jameson without breaking stride, this man is not in a rush. He’s happy to talk to his friend. They smile, laugh, and Jameson asks how his family’s doing. After a couple minutes, Jameson sends the man on his way.</p>
+<p>“I don’t want to hold you up,” Jameson tells him. “Enjoy this weather and have a nice weekend.”</p>
+
+<div id="backpack">
+<img src="http://i.imgur.com/2HDkAqP.jpg" class="img-responsive">
+<p class="caption">A customer stops to talk to Jameson on his way home from work.</p>
+</div><!-- backpack-->
+
+<p>The two men shake hands, and the one is on his way, backpack bouncing. Jameson limps back to his Bible, eager to return to Zechariah’s prophecies. He extends the hardcover before his chest, sharp blue eyes scanning the pages beneath a balding, graying head. How lazy or immoral can customers view a street vendor working for income and reading the Bible in his spare time? Jameson eliminates as many chances for stigma as possible.</p>
+<p>Still, Jameson’s post is unusual, nestled between the plaza, above the underground Dallas Pedestrian Network and far from any major intersections or streetlights. He’s not even within 10 yards of a door. Such a location doesn’t warm to sales immediately. But after nearly three years building his client base, Jameson has built rapport.</p>
+<p>Jameson also sells at the Dallas St. Patrick’s Day Festival and Parade on Greenville Avenue each year. The throngs of partying Dallasites make for a prime sales opportunity. One year, he earned $150 – a week’s worth of income from eight hours in the sea of green. This year, backaches limited his gig to four hours. He still collected $85 before checking himself into a hospital for the latest diagnosis. He was out days later and back at the crosswalk.</p>
+<p>Little can stop Jameson from driving his 1988 Buick to the train station, riding downtown and walking the half-mile to The Stewpot. After he buys papers and helps other vendors, he walks another half-mile to his spot. He wields his cane begrudgingly. At least it’s not an air tank, he says. And he stays positive most days. His customers look out for him. They noticed when he first sported the cane. Jameson thinks his customers aren’t the only ones looking out for him.</p>
+<p>“Look at me getting by doing this and where I’ve come from to where I am now,” Jameson said. “God looks out for me a lot. I got his ear a lot more than I probably should so I’m thankful for that.”</p>
+<p>In exchange, Jameson – who describes himself as “fairly religious” – tries to live a life worthy of that extra attention. He doesn’t do the right thing “to the extreme,” he says, but he acts morally in moderation.</p>
+<p>He tells his apartment management about Street Zine funding but sometimes underestimates his intake in case sales don’t pan out. He went through a drinking and drugs stage when he was young but says he’s past it now. He’s had troubled relationships, so now he steers clear of girlfriends.</p>
+<p>For the most part, his life is simple: Maintain his $45-a-month self-furnished apartment at Forest and Greenville. Repair his $110 automobile that enables him to commute when necessary. Watch shows on his $200 T.V. Promote and sell Street Zine. Greet his customers.</p>
+<p>At day’s end, he hobbles away with his cane, Street Zine copies, bible and cardboard sign. He considers the spiral that got him here.</p>
+<p>	“I’ve done things I’m not proud of and I’ve done things I’m very proud of,” Jameson said. “I guess it makes me just about human only.”</p>
+
+<h4 class="map-head">Where are street papers in North America?</h4>
+  <div class="map">
+  <img src="http://i.imgur.com/03GYnnh.png" class="img-responsive">
+  <p class="caption">In a 2016 survey I did of street papers in North America, 33 respondents from 30 papers participated. Check out what cities they represent.</p>
+</div><!-- map-->
+
+<h4 class="table-title">Find the street paper nearest you</h4>
+<h5 class="table">Search the table to learn about 29 additional North American street papers like Street Zine.</h5>
+
+<div class="table">
+    <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Paper name</th>
+                <th>City</th>
+                <th>Number of active vendors</th>
+                <th>Founding year</th>
+                <th>How often does it print?</th>
+                <th>Average circulation</th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th>Street Zine</th>
+                <th>Dallas, TX</th>
+                <th>35-40</th>
+                <th>2000</th>
+                <th>Monthly</th>
+                <th>4,500</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Challenger</td>
+                <td>Austin, TX</td>
+                <td>30</td>
+                <td>2006</td>
+                <td>Monthly</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>Spare Change News</td>
+                <td>Boston, MA</td>
+                <td>55</td>
+                <td>1992</td>
+                <td>Biweekly</td>
+                <td>7,000-8,000</td>
+            </tr>
+            <tr>
+                <td>Street Pulse</td>
+                <td>Madison, WI</td>
+                <td>20</td>
+                <td>1997</td>
+                <td>Monthly</td>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <td>Megaphone</td>
+                <td>Vancouver and Victoria, BC</td>
+                <td>40</td>
+                <td>2007</td>
+                <td>Monthly</td>
+                <td>5,000</td>
+            </tr>
+            <tr>
+                <td>The Journey</td>
+                <td>Fort Worth, TX</td>
+                <td>1</td>
+                <td>2010</td>
+                <td>Monthly</td>
+                <td>1,000-2000</td>
+            </tr>
+            <tr>
+                <td>The Contributor</td>
+                <td>Nashville, TN</td>
+                <td>300</td>
+                <td>2007</td>
+                <td>Weekly</td>
+                <td>9,500</td>
+            </tr>
+            <tr>
+                <td>Street Sense</td>
+                <td>Washington, D.C.</td>
+                <td>130</td>
+                <td>2003</td>
+                <td>Biweekly</td>
+                <td>11,000</td>
+            </tr>
+            <tr>
+                <td>Groundcover News</td>
+                <td>Ann Arbor, MI</td>
+                <td>40</td>
+                <td>2010</td>
+                <td>Monthly</td>
+                <td>8,000-11,000</td>
+            </tr>
+            <tr>
+                <td>Denver Voice</td>
+                <td>Denver, CO</td>
+                <td>50</td>
+                <td>2007</td>
+                <td>Monthly</td>
+                <td>7,000</td>
+            </tr>
+            <tr>
+                <td>The Curbside Chronicle</td>
+                <td>Oklahoma City, OK</td>
+                <td>25</td>
+                <td>2013</td>
+                <td>Bimonthly</td>
+                <td>7,000</td>
+            </tr>
+            <tr>
+                <td>StreetWise</td>
+                <td>Chicago, IL</td>
+                <td>75</td>
+                <td>1992</td>
+                <td>Weekly</td>
+                <td>5,000</td>
+            </tr>
+            <tr>
+                <td>Speak Up</td>
+                <td>Charlotte, NC</td>
+                <td>12</td>
+                <td>2011</td>
+                <td>Monthly</td>
+                <td>500-2,000</td>
+            </tr>
+            <tr>
+                <td>The Bridge</td>
+                <td>Memphis, TN</td>
+                <td>50</td>
+                <td>2013</td>
+                <td>Monthly</td>
+                <td>5,000</td>
+            </tr>
+            <tr>
+                <td>Streetvibes</td>
+                <td>Cincinnati, OH</td>
+                <td>40</td>
+                <td>1997</td>
+                <td>Biweekly</td>
+                <td>2,000</td>
+            </tr>
+            <tr>
+                <td>Homeward Street Journal</td>
+                <td>Sacramento, CA</td>
+                <td>35</td>
+                <td>1997</td>
+                <td>Bimonthly</td>
+                <td>7,000-10,000</td>
+            </tr>
+            <tr>
+                <td>Toledo Streets Newspaper</td>
+                <td>Toledo, OH</td>
+                <td>40</td>
+                <td>2009</td>
+                <td>Monthly</td>
+                <td>2,500-3,000</td>
+            </tr>
+            <tr>
+                <td>The Catalyst</td>
+                <td>Lowell, MA</td>
+                <td>1</td>
+                <td>2015</td>
+                <td>Monthly</td>
+                <td>2,000</td>
+            </tr>
+            <tr>
+                <td>Mi Valedor</td>
+                <td>Mexico City, MX</td>
+                <td>12</td>
+                <td>2015</td>
+                <td>Bimonthly</td>
+                <td>2,000</td>
+            </tr>
+            <tr>
+                <td>The Homeless Voie</td>
+                <td>Broward County, FL</td>
+                <td>35</td>
+                <td>199</td>
+                <td>Monthly</td>
+                <td>40-60,000</td>
+            </tr>
+            <tr>
+                <td>Street Sheet</td>
+                <td>San Francisco, CA</td>
+                <td>230</td>
+                <td>1989</td>
+                <td>Biweekly</td>
+                <td>16,000</td>
+            </tr>
+            <tr>
+                <td>One Step Away</td>
+                <td>Philadelphia, PA</td>
+                <td>65</td>
+                <td>2009</td>
+                <td>Monthly</td>
+                <td>15,000</td>
+            </tr>
+            <tr>
+                <td>Speak Up Magazine</td>
+                <td>Traverse City, MI</td>
+                <td>5</td>
+                <td>2014</td>
+                <td>Monthly</td>
+                <td>1,000</td>
+            </tr>
+            <tr>
+                <td>Word on the Street</td>
+                <td>Baltimore, MD</td>
+                <td>0 - Defunct</td>
+                <td>2012</td>
+                <td>Was quarterly</td>
+                <td>5,000</td>
+            </tr>
+            <tr>
+                <td>Article 25</td>
+                <td>Cincinnati, OH</td>
+                <td>20</td>
+                <td>2011</td>
+                <td>Monthly</td>
+                <td>1,500</td>
+            </tr>
+            <tr>
+                <td>Real Change News</td>
+                <td>Seattle, WA</td>
+                <td>320</td>
+                <td>1994</td>
+                <td>Weekly</td>
+                <td>11,000-12,500</td>
+            </tr>
+            <tr>
+                <td>Street Roots</td>
+                <td>Portland, OR</td>
+                <td>165</td>
+                <td>1999</td>
+                <td>Weekly</td>
+                <td>10,000</td>
+            </tr>
+            <tr>
+                <td>Making Change</td>
+                <td>Marina, CA</td>
+                <td>Under 50</td>
+                <td>1987</td>
+                <td>Biannually</td>
+                <td>5,000</td>
+            </tr>
+            <tr>
+                <td>Community Connection</td>
+                <td>Los Angeles, CA</td>
+                <td>0 – Program inactive</td>
+                <td>2001</td>
+                <td>Every 2-3 months</td>
+                <td>6,000</td>
+            </tr>
+            <tr>
+                <td>Thrive Detroit Street Paper</td>
+                <td>Detroit, MI</td>
+                <td>6-10</td>
+                <td>2011</td>
+                <td>Quarterly</td>
+                <td>500-5,000</td>
+            </tr>
+          </tbody>
+      </table>
+
+      <p class="bio">Jori Epstein graduated from the University of Texas at Austin in May 2016 with degrees in Plan II Honors and journalism. She now works for <a href= "http://www.dallasnews.com/" target="_blank">The Dallas Morning News</a> as a digital sports producer.</p>
+    </div><!-- table-->
+
+      </div><!-- story-->
+
+</div><!-- /col-3-->
+</div><!-- /.row -->
+</div><!-- /.container -->
+
+</body>
+</html>
